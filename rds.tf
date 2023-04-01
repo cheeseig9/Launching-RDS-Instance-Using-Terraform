@@ -50,7 +50,7 @@ resource "aws_security_group" "webserver_security_group" {
   }
 
   tags   = {
-    Name = 
+    Name = "webserver security group"
   }
 }
 
